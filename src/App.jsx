@@ -67,6 +67,7 @@ And here. | Okay. | I think we get it.
     return (
       <div className='container'>
         <div id="editor-container">
+          <div id="editor-text">Editor</div>
           <textarea 
             id="editor"
             value={this.state.markdown}
